@@ -96,6 +96,7 @@ Contraseña: admin123
 
 ### Autor
 José Raúl Ludeña Daza
+
 Curso: Introducción al Desarrollo Web
 
 Año: 2025

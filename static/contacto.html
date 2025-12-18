@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Jotar Living</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img src="imagenes/j0tar_Logo.png" alt="Jotar Living Logo" class="logo-img"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="condominios.html">Condominios</a></li>
+                <li><a href="depas.html">Depas</a></li>
+                <li><a href="lotes.html">Lotes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner-section banner-bg-contacto">
+            <div class="banner-content">
+                <h1>Hablemos</h1>
+                <p>Estamos aquí para ayudarte a encontrar tu hogar en Arequipa</p>
+            </div>
+        </section>
+
+        <div class="contact-layout-grid">
+            <div class="contact-info-block">
+                <h2 class="section-title" style="text-align: left; font-size: 2rem;">Nuestras Oficinas</h2>
+                <p style="margin-bottom: 2rem; color: #666;">Visítanos o escríbenos para recibir asesoría personalizada sobre nuestros proyectos.</p>
+                
+                <div class="contact-info-row">
+                    <div class="icon-circle-box"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4 class="contact-label-title">Dirección</h4>
+                        <p class="contact-text-body">Av. Ejército 123, Cayma<br>Arequipa, Perú</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-row">
+                    <div class="icon-circle-box"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <h4 class="contact-label-title">Teléfonos</h4>
+                        <p class="contact-text-body">(054) 123-4567<br>+51 987 654 321</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-row">
+                    <div class="icon-circle-box"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4 class="contact-label-title">Correo</h4>
+                        <p class="contact-text-body">ventas@jotarliving.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form action="/enviar" method="POST">
+                    <div class="form-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Interesado en:</label>
+                        <select name="interes">
+                            <option value="General">Selecciona una opción...</option>
+                            <option value="Departamento">Comprar Departamento</option>
+                            <option value="Lote">Comprar Lote</option>
+                            <option value="Info">Información General</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" rows="4" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; border: none;">Enviar Mensaje</button>
+                </form>
+            </div>
+
+        <div class="map-wrapper-full">
+            <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61244.78923485758!2d-71.5830919777991!3d-16.398802952402927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0x13892797b5e8b01e!2sArequipa!5e0!3m2!1ses!2spe!4v1709230000000!5m2!1ses!2spe" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section"><h3>Jotar Living</h3><p>Construyendo hogares, creando comunidades.</p></div>
+            <div class="footer-section"><h3>Contacto</h3><p>Email: contacto@jotarliving.com</p></div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul class="footer-links">
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="condominios.html">Condominios</a></li>
+                    <li><a href="depas.html">Depas</a></li>
+                    <li><a href="lotes.html">Lotes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2025 Jotar Living. Todos los derechos reservados.</p></div>
+    </footer>
+</body>
+</html>
